@@ -1,4 +1,4 @@
-import TodoList from 'TodoList';
+import React from 'react';
 
 const tarefas = () => {
     const tasks = [
@@ -15,3 +15,5 @@ const tarefas = () => {
     </ul>
     );
 }
+
+export default tarefas;

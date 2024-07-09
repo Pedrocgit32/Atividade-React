@@ -1,13 +1,16 @@
 import './App.css';
 import TodoList from './components/TodoList';
-import ReactDOM from 'react-dom';
+import Contador from './components/Contador';
+import Texto from './components/Texto';
+
 
 function App() {
   
   
   return (
     <div className="App">
-      ReactDOM.render(<TodoList/>, document.getElementById('root'));
+      <Contador />
+      <Texto />
     </div>
   );
 }
